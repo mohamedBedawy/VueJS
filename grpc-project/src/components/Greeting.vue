@@ -6,6 +6,7 @@
 </template>
 
 <script>
+
 export default {
   name: `Greeting`,
   props: {
@@ -17,9 +18,18 @@ export default {
     }
   },
   methods: {
-    increment() {
-      this.count++
-    }
+    // sayHello(name) {
+    //   const request = new HelloRequest();
+    //   request.setName(name);
+    //
+    //   this.client.sayHello(request, {}, (err, response) => {
+    //     if (err) {
+    //       console.error(err);
+    //       return;
+    //     }
+    //     alert(response.getMessage());
+    //   });
+    // }
   },
   created() {
   }
